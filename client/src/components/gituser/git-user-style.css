@@ -2,16 +2,25 @@
 	font-weight: bold;
 }
 
+.bio-inline {
+	display: inline-block;
+}
+
 .git-user {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: end;
 	justify-content: center;
+	background-color: white;
 }
 
 .git-user li {
 	list-style-type: none;
-	padding: 30px;
+	border: 1px solid;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 4px;
+	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
 }
 
 .git-user li img {

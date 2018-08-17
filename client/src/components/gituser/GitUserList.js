@@ -6,8 +6,7 @@ class GitUserList extends Component {
   constructor() {
     super();
     this.state = {
-      users: [],
-      hello: 'check'
+      users: []
     };
     this.handleClick = this.handleClick.bind(this);
   }
@@ -29,7 +28,8 @@ class GitUserList extends Component {
   }
 
   render() {
-    return <Gituser users={this.state.users} hello={this.state.hello} />;
+    const { users } = this.state;
+    return <ul className="git-user">{users.map(user => <Gituser key={user.id} user={user} />)}</ul>;
   }
 }
 
