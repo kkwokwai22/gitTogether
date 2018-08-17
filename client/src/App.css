@@ -1,0 +1,23 @@
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+ul,
+ol {
+  padding: 0px;
+  margin: 0px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: url('https://images.pexels.com/photos/172368/pexels-photo-172368.jpeg?cs=srgb&dl=bench-couple-daylight-172368.jpg&fm=jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 90vh;
+  color: white;
+}
